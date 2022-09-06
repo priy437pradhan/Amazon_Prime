@@ -335,6 +335,9 @@ h3 {
     width: 300px;
 }
 
+
+
+
 @media(max-width:900px) {
   .responsive{
     display: flex;
