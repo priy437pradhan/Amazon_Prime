@@ -9,6 +9,10 @@
 
 
 }
+/* .responsive img{
+    display: none;
+} */
+
 
 .navbar {
     
@@ -318,4 +322,32 @@ h3 {
 
 .my_stuff {
     margin-left: 20px;
+}
+.responsive{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.responsive img{
+    height: 300px;
+    width: 300px;
+}
+
+@media(max-width:900px) {
+  .responsive{
+    display: flex;
+  }
+  .navbar,
+  .container,
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .bottom_navbar{
+    display: none;
+
+  }
+  
 }
